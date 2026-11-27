@@ -1,0 +1,10 @@
+# CPU build of PyTorch: uv pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0
+torchvision==0.29.2
+transformers==5.22.1
+numpy==2.5.5
+pillow==13.0.0
+requests==2.34.2
+matplotlib==3.11.2
+# optional, only for scripts/03b_embed_full_catalog.py (the whole catalog)
+# pyarrow   (any recent version; Kaggle images ship it)

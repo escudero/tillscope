@@ -1,0 +1,22 @@
+# environment
+.venv/
+__pycache__/
+*.pyc
+
+# downloaded models and data (see README, "How to reproduce")
+weights/
+data/raw/
+
+# everything the pipeline writes; the showcase media lives in docs/media/
+data/output/
+
+# pilot material from the idea session (RPC samples, mocks, handoff notes)
+pilot/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# generated videos are never committed
+*.mp4
